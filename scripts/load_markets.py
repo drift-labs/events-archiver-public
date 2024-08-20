@@ -29,7 +29,7 @@ class PerpMarket:
     baseAssetSymbol: str
 
 
-IDL_URL = "https://raw.githubusercontent.com/drift-labs/protocol-v2/9d630045c170ef382c2355996cec0f9ecdb9fb8f/sdk/src/idl/drift.json"
+IDL_URL = "https://raw.githubusercontent.com/drift-labs/protocol-v2/944ad4e560ad3d2f6506b758e6c79bbd580b56b7/sdk/src/idl/drift.json"
 
 async def load_markets() -> Tuple[list[PerpMarket], list[SpotMarket]]:
     connection = AsyncClient(RPC_URL)

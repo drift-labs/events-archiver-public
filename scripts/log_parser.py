@@ -11,7 +11,7 @@ from tqdm import tqdm
 from driftpy.constants.config import DRIFT_PROGRAM_ID
 from driftpy.events.parse import parse_logs
 
-IDL_URL = "https://raw.githubusercontent.com/drift-labs/protocol-v2/e86757b6e033ac27583755739fb28cedec976204/sdk/src/idl/drift.json"
+IDL_URL = "https://raw.githubusercontent.com/drift-labs/protocol-v2/944ad4e560ad3d2f6506b758e6c79bbd580b56b7/sdk/src/idl/drift.json"
 
 KP = Keypair()  # random wallet
 WALLET = Wallet(KP)
